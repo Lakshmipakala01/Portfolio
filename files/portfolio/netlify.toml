@@ -1,0 +1,6 @@
+# netlify.toml
+# Tells Netlify where your site files and serverless functions live.
+
+[build]
+  publish = "."                      # index.html is in the project root
+  functions = "netlify/functions"    # notify.js lives here
